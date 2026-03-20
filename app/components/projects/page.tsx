@@ -5,7 +5,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-20 px-8 bg-gray-50">
+    <section id="projects" className="py-20 px-8">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-4">Projects</h2>
         <div className="grid md:grid-cols-2 gap-8 mt-6">
