@@ -10,6 +10,7 @@ export default function Skills() {
   { name: "Tailwind", img: "/tech/tailwind.png" },
   { name: "Git", img: "/tech/git.png" },
   { name: "aws", img: "/tech/aws.png" },
+  { name: "angular", img: "/tech/angular.png" },
 ];
 
   return (
