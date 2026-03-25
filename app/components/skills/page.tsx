@@ -14,7 +14,7 @@ export default function Skills() {
 ];
 
   return (
-    <section className="py-28 px-6 max-w-10xl mx-auto">
+    <section id="skills" className="py-28 px-6 max-w-10xl mx-auto">
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

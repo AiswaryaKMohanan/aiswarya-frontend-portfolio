@@ -1,4 +1,5 @@
 import About from "./components/about/page";
+import Background from "./components/background/page";
 import Contact from "./components/contact/page";
 import Navbar from "./components/navbar/page";
 import Profile from "./components/profile/page";
@@ -11,6 +12,7 @@ export default function Home() {
       <main className="flex min-h-screen items-center  dark:bg-black sm:items-start bg-black text-white">
        
          <div>
+          <Background/>
               <Navbar />
               <Profile />
               <About />
