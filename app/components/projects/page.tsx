@@ -8,13 +8,14 @@ export default function Projects() {
 
   return (
     <section id="projects">
+      <div className="text-4xl py-28">Projects</div>
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 py-28 px-10">
   <ProjectCard
     title="Portfolio Website"
     description="Personal portfolio with animations and responsive UI."
     image="/portfolio.png"
     techStack={["Next.js", "Tailwind"]}
-    liveLink="#"
+    liveLink="https://crypto-dashboard-bkyq.vercel.app/"
     githubLink="#"
   />
 
