@@ -34,7 +34,7 @@ export default function Profile() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="flex justify-center"
         >
-          <div className="p-1 rounded-full bg-blue-500">
+          <div className="p-1 rounded-full">
             <Image
               src="/tech/profile.jpg"
               alt="Aiswarya profile"

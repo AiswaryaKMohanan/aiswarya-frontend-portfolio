@@ -11,6 +11,9 @@ export default function Skills() {
   { name: "Git", img: "/tech/git.png" },
   { name: "aws", img: "/tech/aws.png" },
   { name: "angular", img: "/tech/angular.png" },
+  { name: "material-ui", img: "/tech/angular.png" },
+  { name: "Mongodb", img: "/tech/angular.png" },
+  { name: "", img: "/tech/angular.png" },
 ];
 
   return (
@@ -31,7 +34,7 @@ export default function Skills() {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ delay: i * 0.1 }}
             whileHover={{ scale: 1.08 }}
-            className="p-6 border border-gray-700 rounded-xl flex flex-col items-center justify-center gap-4 bg-black/40 backdrop-blur"
+            className="p-4 border border-gray-700 rounded-xl flex flex-col items-center justify-center gap-4 bg-black/40 backdrop-blur"
           >
             <Image
               src={t.img}
