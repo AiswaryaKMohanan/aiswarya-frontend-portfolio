@@ -5,7 +5,7 @@ export default function Download() {
 
             <div className="flex gap-4">
                 <a
-                    href="Aiswarya-Kotharambath-CV.pdf"
+                    href="Aiswarya_Kotharambath_CV.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -13,7 +13,7 @@ export default function Download() {
                 </a>
 
                 <a
-                    href="/Aiswarya-Kotharambath-CV.pdf"
+                    href="/Aiswarya_Kotharambath_CV.pdf"
                     download
                 >
                     Download CV
