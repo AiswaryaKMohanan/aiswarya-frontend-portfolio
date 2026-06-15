@@ -1,6 +1,7 @@
 import About from "./components/about/page";
 import Background from "./components/background/page";
 import Contact from "./components/contact/page";
+import Download from "./components/download/page";
 import Navbar from "./components/navbar/page";
 import Profile from "./components/profile/page";
 import Projects from "./components/projects/page";
@@ -19,6 +20,7 @@ export default function Home() {
               <Skills />
               <Projects />
               <Contact />
+              <Download />
             </div>
       </main>
     // </div>
