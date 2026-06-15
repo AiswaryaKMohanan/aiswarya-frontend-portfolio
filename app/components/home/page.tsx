@@ -1,5 +1,6 @@
 import About from "../about/page";
 import Contact from "../contact/page";
+import Download from "../download/page";
 import Navbar from "../navbar/page";
 import Profile from "../profile/page";
 import Projects from "../projects/page";
@@ -15,6 +16,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
+      <Download />
     </div>
   );
 }

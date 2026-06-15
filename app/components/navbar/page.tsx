@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-const sections = ["about", "skills", "projects", "contact"];
+const sections = ["about", "skills", "projects", "contact","download"];
 
 export default function Navbar() {
   const [active, setActive] = useState("about");
